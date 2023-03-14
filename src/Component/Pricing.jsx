@@ -1,0 +1,64 @@
+import React from 'react'
+import { Avatar } from 'flowbite-react'
+export default function Pricing() {
+  return (
+    <>
+      <React.Fragment>
+  <Avatar.Group>
+    <Avatar
+      img="https://flowbite.com/docs/images/people/profile-picture-1.jpg"
+      rounded={true}
+      stacked={true}
+    />
+    <Avatar
+      img="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
+      rounded={true}
+      stacked={true}
+    />
+    <Avatar
+      img="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
+      rounded={true}
+      stacked={true}
+    />
+    <Avatar
+      img="https://flowbite.com/docs/images/people/profile-picture-4.jpg"
+      rounded={true}
+      stacked={true}
+    />
+    <Avatar
+      img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+      rounded={true}
+      stacked={true}
+    />
+  </Avatar.Group>
+  <Avatar.Group>
+    <Avatar
+      img="https://flowbite.com/docs/images/people/profile-picture-1.jpg"
+      rounded={true}
+      stacked={true}
+    />
+    <Avatar
+      img="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
+      rounded={true}
+      stacked={true}
+    />
+    <Avatar
+      img="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
+      rounded={true}
+      stacked={true}
+    />
+    <Avatar
+      img="https://flowbite.com/docs/images/people/profile-picture-4.jpg"
+      rounded={true}
+      stacked={true}
+    />
+    <Avatar.GroupCounter
+      total={99}
+      href="#"
+    />
+  </Avatar.Group>
+</React.Fragment>
+    </>
+  )
+}
+
