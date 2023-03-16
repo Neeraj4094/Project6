@@ -9,6 +9,7 @@ import { Avatar } from 'flowbite-react'
 import Contact from './Component/Contact'
 import Cards from './Component/Cards'
 import Login from './Component/Login'
+import Notfound from './Component/Notfound'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,7 @@ function App() {
         <Route path='/Pricing' element={<><Avatar /></>} />
         <Route path='/Contact' element={<><Contact /></>} />
         <Route path='/Login' element={<><Login/></>} />
-        
+        <Route path='*' element={<><Notfound/></>} />
         </Routes>
         </BrowserRouter>
   

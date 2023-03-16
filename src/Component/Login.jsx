@@ -12,7 +12,7 @@ import {
 }
 from 'mdb-react-ui-kit';
 
-
+import { Link } from 'react-router-dom';
 function App() {
   return (
     <MDBContainer className="my-5" >
@@ -21,7 +21,7 @@ function App() {
         <MDBRow className='g-2'>
 
           <MDBCol md='6'>
-            <MDBCardImage src='https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp' alt="login form" className='rounded-start w-80'/>
+            <MDBCardImage src='./image/img5.jpg' alt="login form" className='rounded-start mt-8 ml-16 w-99 h-'/>
           </MDBCol>
 
           <MDBCol md='6'>
@@ -43,7 +43,8 @@ function App() {
 
               <div className='d-flex flex-row justify-content-start'>
                 <a href="#!" className="small text-muted me-1">Terms of use.</a>
-                <a href="#!" className="small text-muted">Privacy policy</a>
+                <a href="#!" className="small text-muted">
+                 <Link to="Notfound">Privacy policy</Link> </a>
               </div>
 
             </MDBCardBody>
