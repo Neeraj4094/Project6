@@ -26,8 +26,8 @@ function App() {
         <Route path='/Services' element={<><Services /></>} />
         <Route path='/Pricing' element={<><Avatar /></>} />
         <Route path='/Contact' element={<><Contact /></>} />
-        <Route path='/Login' element={<><Login /></>} />
-        <Route path='/Login' element={<></>} />
+        <Route path='/Login' element={<><Login/></>} />
+        
         </Routes>
         </BrowserRouter>
   

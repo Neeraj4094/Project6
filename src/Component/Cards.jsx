@@ -3,8 +3,8 @@ import { Card } from "flowbite-react";
 export default function Cards() {
   return (
     <>
-    
-      <div className="grid  grid-cols-4 gap-1 m-10 ">
+    <div className="flex justify-center align-center">
+      <div className=" m-10 ">
         <div className="max-w-sm m1-16">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -21,11 +21,11 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className="grid  grid-cols-4 gap-1 m-10 ">
+      <div className="m-10 ">
         <div className="max-w-sm m1-16">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
-            imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg"
+            imgSrc="./image/nature1.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Noteworthy technology acquisitions 2021
@@ -38,7 +38,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className="grid  grid-cols-4 gap-1 m-10 ">
+      <div className="m-10 ">
         <div className="max-w-sm m1-16">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -55,7 +55,7 @@ export default function Cards() {
         </div>
       </div>
       
-      <div className="grid  grid-cols-4  gap-1 m-10">
+      <div className=" m-10">
         <div className="max-w-sm m1-16">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -71,7 +71,7 @@ export default function Cards() {
           </Card>
         </div>
       </div>
-      
+      </div>
     </>
   );
 }

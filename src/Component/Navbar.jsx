@@ -31,7 +31,7 @@ export default function Nav1(){
       href="/navbars"
       active={true}
       >
-      <Link to="/home">Home</Link>
+      <Link to="/">Home</Link>
     </Navbar.Link>
     <Navbar.Link
       
