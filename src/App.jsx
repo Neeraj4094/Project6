@@ -10,6 +10,7 @@ import Contact from './Component/Contact'
 import Cards from './Component/Cards'
 import Login from './Component/Login'
 import Notfound from './Component/Notfound'
+// import Slide from './Component/Slide'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,9 +20,15 @@ function App() {
 
     
       <BrowserRouter>
+      
   <Nav1></Nav1>
+  
+      <div className="App">
+        
+      </div>
       <Routes>
         <Route path='/' element={<><Home />
+        {/* <Slide /> */}
         <Cards></Cards></>} />
         <Route path='/About' element={<><About1></About1></>}></Route>
         <Route path='/Services' element={<><Services /></>} />
@@ -29,6 +36,7 @@ function App() {
         <Route path='/Contact' element={<><Contact /></>} />
         <Route path='/Login' element={<><Login/></>} />
         <Route path='*' element={<><Notfound/></>} />
+        
         </Routes>
         </BrowserRouter>
   
