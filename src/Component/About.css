@@ -1,0 +1,9 @@
+.app {
+  position: absolute;
+  /* background-color: #f10000; */
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  background: url("/my-project/public/image/nature.jpg") no-repeat center center/cover;
+}
+

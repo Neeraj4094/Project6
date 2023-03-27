@@ -28,7 +28,7 @@ export default function Notfound() {
           </div>
         </div>
       </section>
-      <a target="_blank" href="https://www.enationalelectronics.com">
+      {/* <a target="_blank" href="https://www.enationalelectronics.com">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 mt-5 mb-5">
@@ -1205,7 +1205,7 @@ export default function Notfound() {
             </div>
           </div>
         </div>
-      </a>
+      </a> */}
     </>
   );
 }
