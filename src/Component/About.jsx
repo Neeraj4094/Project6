@@ -1,152 +1,33 @@
 import React from "react";
-import { Accordion,Footer } from "flowbite-react";
-import './About.css'
-export default function About1() {
+import { Carousel } from "flowbite-react";
+import Cards from "./Cards";
+import Foot from "./Foot";
+export default function Home() {
   return (
     <>
-    <div className="app">
-      About Us
-      {/* <div className="flex flex-wrap gap-2"></div> */}
-      <Accordion alwaysopen={true}>
-        <Accordion.Panel>
-          <Accordion.Title>What is Flowbite?</Accordion.Title>
-          <Accordion.Content>
-            <p className="mb-2 text-gray-500 dark:text-gray-400">
-              Flowbite is an open-source library of interactive components built
-              on top of Tailwind CSS including buttons, dropdowns, modals,
-              navbars, and more.
-            </p>
-            <p className="text-gray-500 dark:text-gray-400">
-              Check out this guide to learn how to
-              <a
-                href="https://flowbite.com/docs/getting-started/introduction/"
-                className="text-blue-600 hover:underline dark:text-blue-500"
-              >
-                get started
-              </a>
-              and start developing websites even faster with components on top
-              of Tailwind CSS.
-            </p>
-          </Accordion.Content>
-        </Accordion.Panel>
-        <Accordion.Panel>
-          <Accordion.Title>Is there a Figma file available?</Accordion.Title>
-          <Accordion.Content>
-            <p className="mb-2 text-gray-500 dark:text-gray-400">
-              Flowbite is first conceptualized and designed using the Figma
-              software so everything you see in the library has a design
-              equivalent in our Figma file.
-            </p>
-            <p className="text-gray-500 dark:text-gray-400">
-              Check out the
-              <a
-                href="https://flowbite.com/figma/"
-                className="text-blue-600 hover:underline dark:text-blue-500"
-              >
-                Figma design system
-              </a>
-              based on the utility classes from Tailwind CSS and components from
-              Flowbite.
-            </p>
-          </Accordion.Content>
-        </Accordion.Panel>
-        <Accordion.Panel>
-          <Accordion.Title>
-            What are the differences between Flowbite and Tailwind UI?
-          </Accordion.Title>
-          <Accordion.Content>
-            <p className="mb-2 text-gray-500 dark:text-gray-400">
-              The main difference is that the core components from Flowbite are
-              open source under the MIT license, whereas Tailwind UI is a paid
-              product. Another difference is that Flowbite relies on smaller and
-              standalone components, whereas Tailwind UI offers sections of
-              pages.
-            </p>
-            <p className="mb-2 text-gray-500 dark:text-gray-400">
-              However, we actually recommend using both Flowbite, Flowbite Pro,
-              and even Tailwind UI as there is no technical reason stopping you
-              from using the best of two worlds.
-            </p>
-            <p className="mb-2 text-gray-500 dark:text-gray-400">
-              Learn more about these technologies:
-            </p>
-            <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-              <li>
-                <a
-                  href="https://flowbite.com/pro/"
-                  className="text-blue-600 hover:underline dark:text-blue-500"
-                >
-                  Flowbite Pro
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://tailwindui.com/"
-                  rel="nofollow"
-                  className="text-blue-600 hover:underline dark:text-blue-500"
-                >
-                  Tailwind UI
-                </a>
-              </li>
-            </ul>
-          </Accordion.Content>
-        </Accordion.Panel>
       
-      <Footer bgDark={true}>
-        <div className="w-full">
-          <div className="grid w-full grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
-            <div>
-              <Footer.Title title="Company" />
-              <Footer.LinkGroup col={true}>
-                <Footer.Link href="#">About</Footer.Link>
-                <Footer.Link href="#">Careers</Footer.Link>
-                <Footer.Link href="#">Brand Center</Footer.Link>
-                <Footer.Link href="#">Blog</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="help center" />
-              <Footer.LinkGroup col={true}>
-                <Footer.Link href="#">Discord Server</Footer.Link>
-                <Footer.Link href="#">Twitter</Footer.Link>
-                <Footer.Link href="#">Facebook</Footer.Link>
-                <Footer.Link href="#">Contact Us</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="legal" />
-              <Footer.LinkGroup col={true}>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Licensing</Footer.Link>
-                <Footer.Link href="#">Terms & Conditions</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="download" />
-              <Footer.LinkGroup col={true}>
-                <Footer.Link href="#">iOS</Footer.Link>
-                <Footer.Link href="#">Android</Footer.Link>
-                <Footer.Link href="#">Windows</Footer.Link>
-                <Footer.Link href="#">MacOS</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-          </div>
-          <div className="w-full bg-gray-700 py-6 px-4 sm:flex sm:items-center sm:justify-between">
-            <Footer.Copyright href="#" by="Flowbite™" year={2022} />
-            <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              
-            </div>
-          </div>
+      <div className="h-56  text-gray-900  border-2 text-3xl font-bold xl:h-80 sm:text-center">
+    <div style={{
+          color:"black",
+          background:"grey",
+          margin:24,
+          padding:5,
+          border:4,
+          borderRadius:18
+        }}>Our services</div>
+          <Carousel slideInterval={5000}>
+            <img src="./image/img1.jpg" alt="..." />
+            <img src="./image/img2.jpg" alt="..." />
+            <img src="./image/img3.jpg" alt="..." />
+            <img src="./image/img4.jpg" alt="..." />
+            <img src="./image/img3.jpg" alt="..." />
+          </Carousel>
         </div>
-      </Footer>
-      
-      </Accordion>
+        <div>
       </div>
+      
+      <Cards></Cards>
+      <Foot></Foot>
     </>
   );
 }
-
-
-
-
-

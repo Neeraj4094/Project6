@@ -8,6 +8,7 @@ export default function Nav1(){
 
 
         <>
+        
     <Navbar
   fluid={true}
   rounded={true}
@@ -37,20 +38,21 @@ export default function Nav1(){
       
       to="/navbars"
     >
-      <Link to="/About">About</Link>
+      <Link to="/About">Services</Link>
     </Navbar.Link>
     <Navbar.Link href="/navbars">
-      <Link to="/Services">Services</Link>
+      <Link to="/Services">About</Link>
     </Navbar.Link>
-    <Navbar.Link href="/navbars">
+    {/* <Navbar.Link href="/navbars">
       <Link to="/Pricing">Pricing</Link>
-    </Navbar.Link>
-    <Navbar.Link href="/navbars">
+    </Navbar.Link> */}
+    {/* <Navbar.Link href="/navbars">
       <Link to="/Contact">Contact</Link>
-    </Navbar.Link>
+    </Navbar.Link> */}
     <Navbar.Link href="/navbars">
       <Link to="/Login">Login</Link>
     </Navbar.Link>
+    
   </Navbar.Collapse>
   </Navbar>
   
