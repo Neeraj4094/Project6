@@ -2,18 +2,20 @@ import React from "react";
 import { Accordion } from "flowbite-react";
 import "./About.css";
 import { MDBIcon } from "mdb-react-ui-kit";
-
+import Homebread from "./Homebread";
 import Cards from "./Cards";
 import Reviews from "./Reviews";
+import Logo from "./Logo";
 import Foot from "./Foot";
 import back from "../image/tut1.jpg";
 export default function About1() {
   return (
     <>
+    <Homebread></Homebread>
       <div
         style={{
           color: "black",
-          background: "grey",
+          background: "gray",
           margin: 24,
           padding: 5,
           textAlign: "center",
@@ -26,12 +28,6 @@ export default function About1() {
         Welcome to Creative Website
       </div>
       <div>
-        <div className="h-56  text-gray-900  border-2 text-3xl font-bold xl:h-80 sm:text-center bg-[url('../image/tut1.jpg')]"></div>
-
-        <div className="App "></div>
-
-        
-
         <div
           style={{
             color: "black",
@@ -45,6 +41,12 @@ export default function About1() {
             backgroundColor: "white",
           }}
         >
+        <div className="h-56  text-gray-900  border-2 text-3xl font-bold xl:h-80 sm:text-center bg-[url('../image/tut1.jpg')]"></div>
+
+        <div className="App "></div>
+
+        
+
           <div
             style={{
               color: "black",
@@ -73,6 +75,7 @@ export default function About1() {
           }}
         >
           <Reviews></Reviews>
+          <Logo></Logo>
         </div>
         <Foot></Foot>
       </div>

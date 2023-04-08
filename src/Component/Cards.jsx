@@ -4,7 +4,7 @@ import { Card } from "flowbite-react";
 export default function Cards() {
   return (
     <>
-    <div className="flex justify-center align-center">
+    <div className="flex justify-center align-center m-12">
       <div className=" m-14 pt-12 ">
         <div className="max-w-sm ">
           <Card

@@ -13,9 +13,11 @@ import {
 from 'mdb-react-ui-kit';
 import Foot from './Foot';
 import { Link } from 'react-router-dom';
+import Loginbread from './Loginbread';
 function App() {
   return (
     <>
+    <Loginbread></Loginbread>
     <MDBContainer className="my-5" >
 
       <MDBCard>

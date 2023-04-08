@@ -38,10 +38,10 @@ export default function Nav1(){
       
       to="/navbars"
     >
-      <Link to="/About">Services</Link>
+      <Link to="/About">About</Link>
     </Navbar.Link>
     <Navbar.Link href="/navbars">
-      <Link to="/Services">About</Link>
+      <Link to="/Services">Services</Link>
     </Navbar.Link>
     {/* <Navbar.Link href="/navbars">
       <Link to="/Pricing">Pricing</Link>

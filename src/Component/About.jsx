@@ -2,10 +2,11 @@ import React from "react";
 import { Carousel } from "flowbite-react";
 import Cards from "./Cards";
 import Foot from "./Foot";
+import Aboutbread from "./Servicebread";
 export default function Home() {
   return (
     <>
-      
+      <Aboutbread></Aboutbread>
       <div className="h-56  text-gray-900  border-2 text-3xl font-bold xl:h-80 sm:text-center">
     <div style={{
           color:"black",
