@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.0.1",
     "bootstrap": "^5.2.3",
     "flowbite": "^1.6.3",
     "flowbite-react": "^0.4.2",

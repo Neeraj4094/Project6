@@ -4,10 +4,13 @@ import "./About.css";
 import { MDBIcon } from "mdb-react-ui-kit";
 import Homebread from "./Homebread";
 import Cards from "./Cards";
+// import Card1 from "./Card1";
 import Reviews from "./Reviews";
 import Logo from "./Logo";
 import Foot from "./Foot";
-import back from "../image/tut1.jpg";
+
+
+import Card1 from "./Card1";
 export default function About1() {
   return (
     <>
@@ -23,10 +26,19 @@ export default function About1() {
           borderRadius: 18,
         }}
       >
-        <MDBIcon fas icon="cubes fa-2x me-2" style={{ color: "#ff6219" }} />
-        <br />
+        <div className="md:text-4xl font-bold">
+        <img src="./image/img1.jpg" style={{
+          alignContent:"center",
+          top:50,
+          left:50,
+          justifyContent: "center",
+          height:50,
+          width: 50,
+        }}  alt="..." />
+        </div>
         Welcome to Creative Website
       </div>
+      
       <div>
         <div
           style={{
@@ -47,21 +59,15 @@ export default function About1() {
 
         
 
-          <div
-            style={{
-              color: "black",
-              background: "grey",
-              margin: 24,
-              padding: 5,
-              border: 4,
-              borderRadius: 18,
-            }}
-          >
-            Our Tech
+          <div className="" style={{
+            border:12,
+            padding:2,
+            borderColor:'black',
+            borderRadius:12,
+          }}>
+           
           </div>
-
-          <Cards></Cards>
-          <Cards></Cards>
+          
         </div>
         <div
           style={{
@@ -74,6 +80,8 @@ export default function About1() {
             borderRadius: 18,
           }}
         >
+          {/* <Card1></Card1> */}
+          <Cards></Cards>
           <Reviews></Reviews>
           <Logo></Logo>
         </div>
