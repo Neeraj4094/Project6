@@ -11,8 +11,11 @@
   "dependencies": {
     "@auth0/auth0-react": "^2.0.1",
     "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
     "flowbite": "^1.6.3",
     "flowbite-react": "^0.4.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

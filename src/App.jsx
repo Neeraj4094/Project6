@@ -10,6 +10,7 @@ import Services from './Component/Services'
 
 import Login from './Component/Login'
 import Notfound from './Component/Notfound'
+import Signup from './Component/Signup'
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         {/* <Route path='/Pricing' element={<><Avatar /></>} /> */}
         {/* <Route path='/Contact' element={<><Contact /></>} /> */}
         <Route path='/Login' element={<><Login/></>} />
+        <Route path='/Signup' element={<><Signup/></>} />
         <Route path='*' element={<><Notfound/></>} />
         
         </Routes>

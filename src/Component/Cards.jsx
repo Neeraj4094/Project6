@@ -1,5 +1,12 @@
 import React from "react";
+import nature1 from "../image/nature1.jpg";
+import nature2 from "../image/nature2.jpg";
+
+import nature4 from "../image/nature4.jpg";
+import img8 from "../image/img8.jpg";
 import img9 from "../image/img9.jpg";
+import img10 from "../image/img10.jpg";
+import img11 from "../image/img11.jpg";
 import { useNavigate } from "react-router-dom";
 
 export default function Cards() {
@@ -25,7 +32,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9 } onClick={()=>{Navigate('/services')}}
+                    src={img8 } onClick={()=>{Navigate('/services')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -40,7 +47,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9}
+                    src={img9 } onClick={()=>{Navigate('/services')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -55,7 +62,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9}
+                    src={img10 } onClick={()=>{Navigate('/services')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -70,7 +77,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9}
+                    src={img11 } onClick={()=>{Navigate('/services')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -85,7 +92,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9}
+                    src={nature1 } onClick={()=>{Navigate('/services')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -100,7 +107,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9}
+                    src={nature2 } onClick={()=>{Navigate('/services')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -115,7 +122,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9}
+                    src={nature1} onClick={()=>{Navigate('/services')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -130,7 +137,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9}
+                    src={nature4} onClick={()=>{Navigate('/services')}}
                     alt=""
                   />
                   <div className="text-center">
