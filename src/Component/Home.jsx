@@ -15,29 +15,7 @@ export default function About1() {
   return (
     <>
     <Homebread></Homebread>
-      <div
-        style={{
-          color: "black",
-          background: "gray",
-          margin: 24,
-          padding: 5,
-          textAlign: "center",
-          border: 4,
-          borderRadius: 18,
-        }}
-      >
-        <div className="md:text-4xl font-bold">
-        <img src="./image/img1.jpg" style={{
-          alignContent:"center",
-          top:50,
-          left:50,
-          justifyContent: "center",
-          height:50,
-          width: 50,
-        }}  alt="..." />
-        </div>
-        Welcome to Creative Website
-      </div>
+      
       
       <div>
         <div

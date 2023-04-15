@@ -25,7 +25,7 @@ export default function Services() {
           </div>
           <div class="w-auto hidden lg:block">
             <div class="inline-block">
-              <button class="py-3 px-5 w-full text-slate-200 font-semibold border border-indigo-700 rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600  hover:bg-indigo-700 transition ease-in-out duration-200" type="button">Try 14 Days Free Trial</button>
+              <button class="py-3 px-5 w-full text-slate-300 font-semibold border border-indigo-700 rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600  hover:bg-indigo-700 transition ease-in-out duration-200" type="button">Try 14 Days Free Trial</button>
             </div>
           </div>
           <div class="w-auto lg:hidden">
