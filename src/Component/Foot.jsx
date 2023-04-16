@@ -9,19 +9,20 @@ function Foot() {
             <div>
               <Footer.Title title="Company" />
               <Footer.LinkGroup col={true}>
-                <Footer.Link href="#">About</Footer.Link>
-                <Footer.Link href="#">Careers</Footer.Link>
-                <Footer.Link href="#">Brand Center</Footer.Link>
-                <Footer.Link href="#">Blog</Footer.Link>
+                <Footer.Link href="/">Home</Footer.Link>
+                
+                <Footer.Link href="/about">About</Footer.Link>
+                <Footer.Link href="/services">Services</Footer.Link>
+                <Footer.Link href="/Login">Login</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="help center" />
+              <Footer.Title title="Follow Us On" />
               <Footer.LinkGroup col={true}>
-                <Footer.Link href="#">Discord Server</Footer.Link>
-                <Footer.Link href="#">Twitter</Footer.Link>
-                <Footer.Link href="#">Facebook</Footer.Link>
-                <Footer.Link href="#">Contact Us</Footer.Link>
+                <Footer.Link href="#">Instagram <i class='bx bxl-instagram' ></i></Footer.Link>
+                <Footer.Link href="#">Twitter <i class='bx bxl-twitter' ></i></Footer.Link>
+                <Footer.Link href="#">Facebook <i class='bx bxl-facebook' ></i></Footer.Link>
+                <Footer.Link href="#">Github <i class='bx bxl-github' ></i></Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>

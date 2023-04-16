@@ -14,9 +14,11 @@ export default function Cards() {
   
   return (
     <>
-    <section className="relative py-20 md:py-32 overflow-hidden bg-gray-100">
-        <div className="container px-4 mx-auto">
-          <div className="max-w-7xl mx-auto">
+    <section className="relative py-20 md:py-32 overflow-hidden bg-slate-300" style={{
+      
+    }}>
+        <div className="container px-4 mx-auto" >
+          <div className="max-w-7xl mx-auto" >
             <div className="max-w-2xl mx-auto mb-18 text-center">
               <h1 className="font-heading text-5xl xs:text-6xl md:text-7xl font-bold text-gray-900 mb-8">
                 <span>Our </span>
@@ -32,7 +34,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img8 } onClick={()=>{Navigate('/services')}}
+                    src={img8 } onClick={()=>{Navigate('/content2')}}
                     alt=""
                   />
                   <div className="text-center">

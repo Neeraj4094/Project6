@@ -1,8 +1,11 @@
 import React from "react";
-import { Rating } from "flowbite-react";
+import img8 from '../image/img8.jpg'
+import img9 from '../image/img9.jpg'
+import img10 from '../image/img10.jpg'
+
 function Reviews() {
-  document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper('.swiper-container', {
+  document.addEventListener("DOMContentLoaded", function () {
+    const swiper = new Swiper(".swiper-container", {
       loop: true,
       slidesPerView: 1,
       spaceBetween: 32,
@@ -10,8 +13,8 @@ function Reviews() {
         delay: 8000,
       },
       navigation: {
-        nextEl: '.next-button',
-        prevEl: '.prev-button',
+        nextEl: ".next-button",
+        prevEl: ".prev-button",
       },
       breakpoints: {
         640: {
@@ -23,467 +26,256 @@ function Reviews() {
           slidesPerView: 2.25,
         },
       },
-    })
-  })
+    });
+  });
   return (
     <>
-
-      <section className="bg-gray-100 p-12 ">
-      <div className="container  px-2 mx-auto">
-    <span className="text-xs text-gray-300 uppercase tracking-wide">What people say</span>
-    <h1 className="mt-8 mb-4 md:mb-24 text-8xl md:text-6xl xl:text-2xl font-heading font-medium leading-tight">Testimonials</h1>
-    <div className="flex flex-wrap -mx-2 mb-14">
-      <div className="w-full xl:w-3/5 px-2 mb-4 xl:mb-0">
-        <div className="flex items-center h-full py-12 px-8 bg-white rounded-3xl">
-          <div className="flex flex-wrap items-center justify-between w-full -mx-2">
-            <div className="w-full md:w-auto px-2 mb-4 md:mb-0">
-              <a className="block mx-auto max-w-max" href="#">
-                <img className="h-24 object-cover" src="uinel-assets/images/ecommerce-reviews/product-phone1.png" alt="" />
-              </a>
-            </div>
-            <div className="w-full md:w-auto px-2 mb-8 md:mb-0">
-              <a className="block mb-2 text-2xl xl:text-3xl font-heading font-medium hover:underline" href="#">Apple iPhone 12 Pro</a>
-              <div className="flex">
-                <p className="text-sm font-heading font-medium mr-2">
-                  <span>Color:</span>
-                  <span className="text-darkBlueGray-300">Silver</span>
-                </p>
-                <p className="text-sm font-heading font-medium">
-                  <span>Memory storage:</span>
-                  <span className="text-darkBlueGray-300">128GB</span>
-                </p>
+      <section className="py-14 2xl:py-24 bg-slate-100 rounded-t-10xl overflow-hidden">
+  <div className="container px-4 mx-auto">
+  <h1
+        className=" md:text-4xl font-bold text-gray-900 m-4 p-2 "
+        style={{
+          background: "white",
+          textAlign: "center",
+          borderRadius: 20,
+        }}
+      >
+        <span>What </span>
+        <span className="font-serif italic">Peoples Say</span>
+      </h1>
+    
+    <div className="mb-2 shadow-lg rounded-t-4xl rounded-b-5xl overflow-hidden">
+      <div className="pt-3 pb-3 md:pb-1 px-4 md:px-16 bg-white bg-opacity-40">
+        <div className="flex flex-wrap items-center">
+          <img className="mr-6 h-20 w-20" src={img8} alt="" />
+          <h4 className="w-full md:w-auto text-xl font-heading font-medium">Faustina H. Fawn</h4>
+          <div className="w-full md:w-px h-2 md:h-8 mx-8 bg-transparent md:bg-gray-200"></div>
+          <span className="mr-4 text-xl font-heading font-medium">5.0</span>
+          <div className="inline-flex">
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block text-gray-200" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="px-4 overflow-hidden md:px-16 pt-8 pb-12 bg-white">
+        <div className="flex flex-wrap">
+          <div className="w-full md:w-2/3 mb-6 md:mb-0">
+            <p className="mb-8 max-w-2xl text-darkBlueGray-400 leading-loose">I haretra neque non mi aliquam, finibus hart bibendum molestie. Vestibulum suscipit sagittis dignissim mauris.</p>
+            <div className="-mb-2">
+              <div className="inline-flex w-full md:w-auto md:mr-2 mb-2">
+                <div className="flex items-center h-12 pl-2 pr-6 bg-green-100 border-2 border-green-500 rounded-full">
+                  <div className="flex mr-2 w-8 h-8 items-center justify-center bg-white rounded-full text-green-500">
+                    <svg width="11" height="11" viewbox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.016 6.366H6.38V10.092H4.472V6.366H0.836V4.638H4.472V0.911999H6.38V4.638H10.016V6.366Z" fill="currentColor"></path>
+                    </svg>
+                  </div>
+                  <span className="text-green-500 font-heading font-medium">Nice Location</span>
+                </div>
+              </div>
+              <div className="inline-flex w-full md:w-auto md:mr-2 mb-2">
+                <div className="flex items-center h-12 pl-2 pr-6 bg-green-100 border-2 border-green-500 rounded-full">
+                  <div className="flex mr-2 w-8 h-8 items-center justify-center bg-white rounded-full text-green-500">
+                    <svg width="11" height="11" viewbox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.016 6.366H6.38V10.092H4.472V6.366H0.836V4.638H4.472V0.911999H6.38V4.638H10.016V6.366Z" fill="currentColor"></path>
+                    </svg>
+                  </div>
+                  <span className="text-green-500 font-heading font-medium">nice content</span>
+                </div>
+              </div>
+              <div className="inline-flex w-full md:w-auto mb-2">
+                <div className="flex items-center h-12 pl-2 pr-6 bg-green-100 border-2 border-green-500 rounded-full">
+                  <div className="flex mr-2 w-8 h-8 items-center justify-center bg-white rounded-full text-green-500">
+                    <svg width="11" height="11" viewbox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.016 6.366H6.38V10.092H4.472V6.366H0.836V4.638H4.472V0.911999H6.38V4.638H10.016V6.366Z" fill="currentColor"></path>
+                    </svg>
+                  </div>
+                  <span className="text-green-500 font-heading font-medium">ease of reach</span>
+                </div>
               </div>
             </div>
-            <div className="w-full md:w-auto px-2 mb-8 md:mb-0">
-              <p className="text-xl text-blue-500 font-heading font-medium">$&nbsp;720,70</p>
-            </div>
-            <div className="w-full md:w-auto px-2"><a className="inline-block w-full md:w-auto py-4 px-6 text-center leading-8 font-heading font-medium tracking-tighter text-xl text-white bg-blue-500 hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-xl" href="#">Add&nbsp;to&nbsp;cart</a></div>
           </div>
-        </div>
-      </div>
-      <div className="w-full md:w-1/2 xl:w-1/5 px-2 mb-4 md:mb-0">
-        <div className="py-12 px-12 h-full bg-white rounded-3xl">
-          <p className="font-heading font-medium">
-            <span className="text-9xl">4.3</span>
-            <span className="text-gray-300">/5</span>
-          </p>
-          <div className="flex mb-3">
-            <a className="inline-block mr-1" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
-              </svg>
-            </a>
-            <a className="inline-block mr-1" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
-              </svg>
-            </a>
-            <a className="inline-block mr-1" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
-              </svg>
-            </a>
-            <a className="inline-block mr-1" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
-              </svg>
-            </a>
-            <a className="inline-block text-gray-200" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="currentColor"></path>
-              </svg>
-            </a>
+          <div className="w-full md:w-1/3 text-right">
+            <p className="mb-8 text-sm text-gray-300">Added 2 months ago</p>
           </div>
-          <p className="text-sm text-gray-300 font-medium">1 218 reviews</p>
-        </div>
-      </div>
-      <div className="w-full md:w-1/2 xl:w-1/5 px-2">
-        <div className="py-12 px-12 h-full bg-white rounded-3xl">
-          <p className="font-heading font-medium">
-            <span className="text-9xl">4.1</span>
-            <span className="text-gray-300">/5</span>
-          </p>
-          <div className="flex mb-3">
-            <a className="inline-block mr-1" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
-              </svg>
-            </a>
-            <a className="inline-block mr-1" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
-              </svg>
-            </a>
-            <a className="inline-block mr-1" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
-              </svg>
-            </a>
-            <a className="inline-block mr-1" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
-              </svg>
-            </a>
-            <a className="inline-block text-gray-200" href="#">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="currentColor"></path>
-              </svg>
-            </a>
-          </div>
-          <p className="text-sm text-gray-300 font-medium">Uistore</p>
         </div>
       </div>
     </div>
-    
-    
-  </div>
-        <div className="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:py-24 lg:mr-0 lg:pl-8 lg:pr-0">
-          <div className="max-w-7xl items-end flex justify-between sm:flex sm:pr-6 lg:pr-8">
-            <h2 className="max-w-xl text-4xl font-bold tracking-tight sm:text-5xl">
-              Read trusted reviews from our customers
-            </h2>
-
-            <div className="mt-8 flex gap-4 lg:mt-0">
-              <button className="prev-button rounded-full border border-current p-3 text-pink-600 transition-colors focus:bg-pink-600 focus:text-white focus:outline-none">
-                <span className="sr-only">Previous Slide</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 -rotate-180"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </button>
-
-              <button className="next-button rounded-full border border-current p-3 text-pink-600 focus:bg-pink-600 focus:text-white focus:outline-none">
-                <span className="sr-only">Next Slide</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </button>
-            </div>
+    <div className="mb-2 shadow-lg rounded-t-8xl rounded-b-5xl overflow-hidden">
+      <div className="pt-3 pb-3 md:pb-1 px-4 md:px-16 bg-white bg-opacity-40">
+        <div className="flex flex-wrap items-center">
+          <img className="mr-6 h-20 w-20" src={img9} alt="" />
+          <h4 className="w-full md:w-auto text-xl font-heading font-medium">Ainsley Stones</h4>
+          <div className="w-full md:w-px h-2 md:h-8 mx-8 bg-transparent md:bg-gray-200"></div>
+          <span className="mr-4 text-xl font-heading font-medium">4.3</span>
+          <div className="flex">
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block text-gray-200" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="currentColor"></path>
+              </svg>
+            </a>
           </div>
-
-          <div className="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
-            <div className="swiper-container !overflow-hidden">
-              <div className="swiper-wrapper">
-                <div className="swiper-slide">
-                  <blockquote className="flex h-full flex-col justify-between bg-white p-12">
-                    <div>
-                      <div className="flex gap-0.5 text-white">
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                      </div>
-
-                      <div className="mt-4">
-                        <h3 className="text-2xl font-bold text-pink-600 sm:text-3xl">
-                          Lorem ipsum dolor sit amet.
-                        </h3>
-
-                        <p className="mt-4 text-lg text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ipsam cumque recusandae dolorum porro, quasi
-                          sunt necessitatibus dolorem ab laudantium vel.
-                        </p>
-                      </div>
-                    </div>
-
-                    <footer className="mt-8 text-gray-500">- Eddie Murphy</footer>
-                  </blockquote>
+        </div>
+      </div>
+      <div className="px-4 md:px-16 pt-8 pb-12 bg-white">
+        <div className="flex flex-wrap">
+          <div className="w-full md:w-2/3 mb-6 md:mb-0">
+            <p className="mb-8 max-w-2xl text-darkBlueGray-400 leading-loose">I haretra neque non mi aliquam, finibus hart bibendum molestie. Morbi facilisis neque in condimentum malesuada. Vestibulum suscipit sagittis dignissim mauris.</p>
+            <div className="-mb-2">
+              <div className="inline-flex w-full md:w-auto md:mr-2 mb-2">
+                <div className="flex items-center h-12 pl-2 pr-6 bg-green-100 border-2 border-green-500 rounded-full">
+                  <div className="flex mr-2 w-8 h-8 items-center justify-center bg-white rounded-full text-green-500">
+                    <svg width="11" height="11" viewbox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.016 6.366H6.38V10.092H4.472V6.366H0.836V4.638H4.472V0.911999H6.38V4.638H10.016V6.366Z" fill="currentColor"></path>
+                    </svg>
+                  </div>
+                  <span className="text-green-500 font-heading font-medium">battery life</span>
                 </div>
-
-                <div className="swiper-slide">
-                  <blockquote className="flex h-full flex-col justify-between bg-white p-12">
-                    <div>
-                      <div className="flex gap-0.5 text-white">
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                      </div>
-
-                      <div className="mt-4">
-                        <h3 className="text-2xl font-bold text-pink-600 sm:text-3xl">
-                          Lorem ipsum dolor sit amet.
-                        </h3>
-
-                        <p className="mt-4 text-lg text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ipsam cumque recusandae dolorum porro, quasi
-                          sunt necessitatibus dolorem ab laudantium vel.
-                        </p>
-                      </div>
-                    </div>
-
-                    <footer className="mt-8 text-gray-500">- Eddie Murphy</footer>
-                  </blockquote>
-                </div>
-
-                <div className="swiper-slide">
-                  <blockquote className="flex h-full flex-col justify-between bg-white p-12">
-                    <div>
-                      <div className="flex gap-0.5 text-white">
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                      </div>
-
-                      <div className="mt-4">
-                        <h3 className="text-2xl font-bold text-pink-600 sm:text-3xl">
-                          Lorem ipsum dolor sit amet.
-                        </h3>
-
-                        <p className="mt-4 text-lg text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ipsam cumque recusandae dolorum porro, quasi
-                          sunt necessitatibus dolorem ab laudantium vel.
-                        </p>
-                      </div>
-                    </div>
-
-                    <footer className="mt-8 text-gray-500">- Eddie Murphy</footer>
-                  </blockquote>
-                </div>
-
-                <div className="swiper-slide">
-                  <blockquote className="flex h-full flex-col justify-between bg-white p-12">
-                    <div>
-                      <div className="flex gap-0.5 text-white">
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                        <span className="bg-green-500 p-0.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                          </svg>
-                        </span>
-                      </div>
-
-                      <div className="mt-4">
-                        <h3 className="text-2xl font-bold text-pink-600 sm:text-3xl">
-                          Lorem ipsum dolor sit amet.
-                        </h3>
-
-                        <p className="mt-4 text-lg text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ipsam cumque recusandae dolorum porro, quasi
-                          sunt necessitatibus dolorem ab laudantium vel.
-                        </p>
-                      </div>
-                    </div>
-
-                    <footer className="mt-8 text-gray-500">- Eddie Murphy</footer>
-                  </blockquote>
+              </div>
+              <div className="inline-flex w-full md:w-auto md:mr-2 mb-2">
+                <div className="flex items-center h-12 pl-2 pr-6 bg-green-100 border-2 border-green-500 rounded-full">
+                  <div className="flex mr-2 w-8 h-8 items-center justify-center bg-white rounded-full text-green-500">
+                    <svg width="11" height="11" viewbox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.016 6.366H6.38V10.092H4.472V6.366H0.836V4.638H4.472V0.911999H6.38V4.638H10.016V6.366Z" fill="currentColor"></path>
+                    </svg>
+                  </div>
+                  <span className="text-green-500 font-heading font-medium">functionality</span>
                 </div>
               </div>
             </div>
           </div>
+          <div className="w-full md:w-1/3 text-right">
+            <p className="mb-8 text-sm text-gray-300">Added 2 months ago</p>
+          </div>
         </div>
-      </section>
-      
-  
-
+      </div>
+    </div>
+    <div className="mb-14 md:mb-24 shadow-lg rounded-t-8xl rounded-b-5xl overflow-hidden">
+      <div className="pt-3 pb-3 md:pb-1 px-4 md:px-16 bg-white bg-opacity-40">
+        <div className="flex flex-wrap items-center">
+          <img className="mr-6 h-20 w-20" src={img10} alt="" />
+          <h4 className="w-full md:w-auto text-xl font-heading font-medium">Jasmine Joy</h4>
+          <div className="w-full md:w-px h-2 md:h-8 mx-8 bg-transparent md:bg-gray-200"></div>
+          <span className="mr-4 text-xl font-heading font-medium">5.0</span>
+          <div className="flex">
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block mr-1" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="#FFCB00"></path>
+              </svg>
+            </a>
+            <a className="inline-block text-gray-200" href="#">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 7.91677H12.4167L10 0.416763L7.58333 7.91677H0L6.18335 12.3168L3.81668 19.5834L10 15.0834L16.1834 19.5834L13.8167 12.3168L20 7.91677Z" fill="currentColor"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="px-4 md:px-16 pt-8 pb-12 bg-white">
+        <div className="flex flex-wrap">
+          <div className="w-full md:w-2/3 mb-6 md:mb-0">
+            <p className="mb-8 max-w-2xl text-darkBlueGray-400 leading-loose">I haretra neque non mi aliquam, finibus hart bibendum molestie. Vestibulum suscipit sagittis dignissim mauris.</p>
+            <div className="-mb-2">
+              <div className="inline-flex w-full md:w-auto md:mr-2 mb-2">
+                <div className="flex items-center h-12 pl-2 pr-6 bg-green-100 border-2 border-green-500 rounded-full">
+                  <div className="flex mr-2 w-8 h-8 items-center justify-center bg-white rounded-full text-green-500">
+                    <svg width="11" height="11" viewbox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.016 6.366H6.38V10.092H4.472V6.366H0.836V4.638H4.472V0.911999H6.38V4.638H10.016V6.366Z" fill="currentColor"></path>
+                    </svg>
+                  </div>
+                  <span className="text-green-500 font-heading font-medium">battery life</span>
+                </div>
+              </div>
+              <div className="inline-flex w-full md:w-auto md:mr-2 mb-2">
+                <div className="flex items-center h-12 pl-2 pr-6 bg-green-100 border-2 border-green-500 rounded-full">
+                  <div className="flex mr-2 w-8 h-8 items-center justify-center bg-white rounded-full text-green-500">
+                    <svg width="11" height="11" viewbox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.016 6.366H6.38V10.092H4.472V6.366H0.836V4.638H4.472V0.911999H6.38V4.638H10.016V6.366Z" fill="currentColor"></path>
+                    </svg>
+                  </div>
+                  <span className="text-green-500 font-heading font-medium">functionality</span>
+                </div>
+              </div>
+              <div className="inline-flex w-full md:w-auto mb-2">
+                <div className="flex items-center h-12 pl-2 pr-6 bg-green-100 border-2 border-green-500 rounded-full">
+                  <div className="flex mr-2 w-8 h-8 items-center justify-center bg-white rounded-full text-green-500">
+                    <svg width="11" height="11" viewbox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.016 6.366H6.38V10.092H4.472V6.366H0.836V4.638H4.472V0.911999H6.38V4.638H10.016V6.366Z" fill="currentColor"></path>
+                    </svg>
+                  </div>
+                  <span className="text-green-500 font-heading font-medium">ease of use</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-1/3 text-right">
+            <p className="mb-8 text-sm text-gray-300">Added 2 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="text-center">
+      <button className="inline-block w-full   py-4 px-10 text-xl text-white bg-blue-500 hover:bg-gray-900  focus:ring-blue-500 focus:ring-opacity-50 rounded-xl transform group-hover:translate-x-full">See all</button>
+    </div>
+  </div>
+</section>
     </>
   );
 }

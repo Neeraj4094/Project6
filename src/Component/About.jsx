@@ -6,6 +6,7 @@ import Team from "./Team";
 // import Card1 from "./Card1";
 // import Ourteam from "./Ourteam";
 import Aboutbread from "./Aboutbread";
+import Content2 from "./Content2";
 export default function Home() {
   return (
     <>
@@ -32,6 +33,7 @@ export default function Home() {
       {/* <Card1></Card1> */}
       <Cards></Cards>
       <Team></Team>
+      <Content2></Content2>
       <Foot></Foot>
     </>
   );

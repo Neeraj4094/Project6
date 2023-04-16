@@ -3,7 +3,10 @@ import React from 'react'
 function Logo() {
   return (
     <>
-      <section className="relative pt-20 pb-36 bg-slate-200 overflow-hidden">
+      <section className="relative pt-20 pb-36 bg-slate-200 overflow-hidden"style={{
+      borderRadius: 12,
+      margin:2
+    }}>
   <img className="absolute top-0 left-0" src="flaro-assets/images/logos/gradient3.svg" alt="" />
   <div className="relative z-10 container px-1 mx-auto">
     <p className="mb-8 text-sm text-gray-600 text-center font-semibold uppercase tracking-px" >Powering next-gen companies</p>

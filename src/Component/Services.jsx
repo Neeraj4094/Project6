@@ -1,6 +1,7 @@
 import React from "react";
 import Servicebread from "./Servicebread";
 import { Link } from "react-router-dom";
+import Foot from "./Foot";
 export default function Services() {
   return (
     <>
@@ -314,7 +315,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-      
+      <Foot></Foot>
     </>
   );
 }
