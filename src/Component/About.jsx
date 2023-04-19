@@ -33,7 +33,7 @@ export default function Home() {
       {/* <Card1></Card1> */}
       <Cards></Cards>
       <Team></Team>
-      <Content2></Content2>
+      
       <Foot></Foot>
     </>
   );

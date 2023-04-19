@@ -11,10 +11,10 @@ import {
   MDBInput
 }
 from 'mdb-react-ui-kit';
-import Foot from './Foot';
+// import Foot from './Foot';
 import { Link } from 'react-router-dom';
 import Loginbread from './Loginbread';
-function App() {
+function Login() {
   return (
     <>
     <Loginbread></Loginbread>
@@ -40,7 +40,7 @@ function App() {
                 <MDBInput wrapperClass='mb-4' label='Email address' id='formControlLg' type='email' size="lg"/>
                 <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/>
 
-              <MDBBtn className="mb-4 px-5" color='dark' size='lg'>Login</MDBBtn>
+              <MDBBtn className="mb-4 px-5" color='dark' size='lg'><Link to="/success">Login</Link></MDBBtn>
               <a className="small text-muted" href="#!">Forgot password?</a>
               <p className="mb-5 pb-lg-2" style={{color: '#393f81'}}>Don't have an account? <a href="#!" style={{color: '#393f81'}}>
                 <Link to="/Signup">Sign In</Link> </a></p>
@@ -58,9 +58,9 @@ function App() {
       </MDBCard>
 
     </MDBContainer>
-    <Foot></Foot>
+    {/* <Foot></Foot> */}
     </>
   );
 }
 
-export default App;
+export default Login;

@@ -41,7 +41,7 @@ function Reviews() {
         }}
       >
         <span>What </span>
-        <span className="font-serif italic">Peoples Say</span>
+        <span className="font-serif italic">Peoples Say About Us</span>
       </h1>
     
     <div className="mb-2 shadow-lg rounded-t-4xl rounded-b-5xl overflow-hidden">
@@ -271,9 +271,7 @@ function Reviews() {
         </div>
       </div>
     </div>
-    <div className="text-center">
-      <button className="inline-block w-full   py-4 px-10 text-xl text-white bg-blue-500 hover:bg-gray-900  focus:ring-blue-500 focus:ring-opacity-50 rounded-xl transform group-hover:translate-x-full">See all</button>
-    </div>
+    
   </div>
 </section>
     </>

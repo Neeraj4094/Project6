@@ -5,11 +5,11 @@ import { useAuth0 } from "@auth0/auth0-react";
 export default function Nav1(){
 
 
-  const LoginButton = () => {
-    const { loginWithRedirect } = useAuth0();
+  // const LoginButton = () => {
+    const { loginWithRedirect,isAuthenticated,logout,user } = useAuth0();
   
-    return <button onClick={() => loginWithRedirect()}>Log In</button>;
-  };
+    // return <button onClick={() => loginWithRedirect()}>Log In</button>;
+  // };
     return (
 
         <>
@@ -37,16 +37,17 @@ export default function Nav1(){
       href="/navbars"
       active={true}
       >
-      <Link to="/">Home</Link>
+        
+      <Link to="/" style={{color:"black"}}>Home</Link>
     </Navbar.Link>
     <Navbar.Link
       
       to="/navbars"
     >
-      <Link to="/About">About</Link>
+      <Link to="/About" style={{color:"black"}}>About</Link>
     </Navbar.Link>
     <Navbar.Link href="/navbars">
-      <Link to="/Services">Services</Link>
+      <Link to="/Services" style={{color:"black"}}>Services</Link>
     </Navbar.Link>
     {/* <Navbar.Link href="/navbars">
       <Link to="/Pricing">Pricing</Link>
@@ -55,9 +56,29 @@ export default function Nav1(){
       <Link to="/Contact">Contact</Link>
     </Navbar.Link> */}
     <Navbar.Link href="/navbars">
-      <Link to="/Login">Login</Link>
-    </Navbar.Link>
+      
     
+    <div>
+    <li>
+      {isAuthenticated && <p> {user.name}</p>}
+    </li>
+    {
+      isAuthenticated ? (
+        <li>
+    <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+      <Link style={{color:"black"}}>Log Out</Link>
+      Log Out
+    </button>
+    </li>
+      ) : (
+
+    <li>
+       <button onClick={() => loginWithRedirect()}><Link style={{color:"black"}}>Login</Link></button>
+    </li>
+      )
+    }
+    </div>
+    </Navbar.Link>
   </Navbar.Collapse>
   </Navbar>
   

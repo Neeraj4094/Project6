@@ -49,7 +49,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9 } onClick={()=>{Navigate('/services')}}
+                    src={img9 } onClick={()=>{Navigate('/content2')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -64,7 +64,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img10 } onClick={()=>{Navigate('/services')}}
+                    src={img10 } onClick={()=>{Navigate('/content2')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -79,7 +79,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img11 } onClick={()=>{Navigate('/services')}}
+                    src={img11 } onClick={()=>{Navigate('/content2')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -94,7 +94,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={nature1 } onClick={()=>{Navigate('/services')}}
+                    src={nature1 } onClick={()=>{Navigate('/content2')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -109,7 +109,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={nature2 } onClick={()=>{Navigate('/services')}}
+                    src={nature2 } onClick={()=>{Navigate('/content2')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -124,7 +124,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={nature1} onClick={()=>{Navigate('/services')}}
+                    src={nature1} onClick={()=>{Navigate('/content2')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -139,7 +139,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={nature4} onClick={()=>{Navigate('/services')}}
+                    src={nature4} onClick={()=>{Navigate('/content2')}}
                     alt=""
                   />
                   <div className="text-center">

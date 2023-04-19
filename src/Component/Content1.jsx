@@ -1,6 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import img8 from '../image/img8.jpg'
 import img9 from '../image/img9.jpg'
+
+
 function Content1() {
   return (
     <>
@@ -27,7 +30,7 @@ function Content1() {
               <button className="relative group inline-block flex-shrink-0 w-full sm:w-auto py-3 px-5 text-sm font-semibold text-orange-50 bg-orange-900 rounded-md overflow-hidden" type="submit">
                 <div className="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500"></div>
                 <div className="relative flex items-center justify-center">
-                  <span className="mr-4">Subscribe</span>
+                  <span className="mr-4"><Link to="/success" style={{ color:"white"}}>Join Us</Link></span>
                   
                 </div>
               </button>
@@ -36,7 +39,7 @@ function Content1() {
         </div>
         <div className="w-full lg:w-1/2 px-4">
           <div className="relative pl-20 lg:pl-16  max-w-lg mx-auto">
-            <img className="relative block w-full h-full xl:max-w-sm lg:ml-auto" src={img8} alt="" />
+            <img className="relative block w-full h-full xl:max-w-sm lg:ml-auto " src={img8} alt="" />
           </div>
         </div>
       </div>

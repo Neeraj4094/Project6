@@ -4,7 +4,7 @@ function Ourteam() {
   return (
     <>
       <h1
-        className="font-heading  text-5xl  md:text-7xl font-bold text-gray-900 mr-3 ml-2 p-2 mt-2 mb-2"
+        className="font-heading  text-5xl  md:text-7xl font-bold text-gray-900 mr-3 ml-2 p-2 mt-2 mb-2 "
         style={{
           background: "white",
           textAlign: "center",

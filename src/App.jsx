@@ -13,6 +13,8 @@ import Notfound from './Component/Notfound'
 import Signup from './Component/Signup'
 import Content2 from './Component/Content2'
 import Logo from './Component/Logo'
+import Success from './Component/Success'
+// import First from './Component/First'
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
       <BrowserRouter>
       
   <Nav1></Nav1>
+      {/* <First></First> */}
   
       <div className="App">
         
@@ -43,6 +46,7 @@ function App() {
         <Route path='*' element={<><Notfound/></>} />
         <Route path='/content2' element={<><Content2/></>} />
         <Route path='/' element={<><Logo/></>} />
+        <Route path='/success' element={<><Success/></>} />
         
         </Routes>
         </BrowserRouter>
